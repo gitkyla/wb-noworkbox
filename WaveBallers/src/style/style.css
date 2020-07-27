@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.ct-nav{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#from-klasemen{
+    margin: 10px auto;
+}
+
+.bsd{
+    margin-right: 20px;
+}
+
+.s-m{
+    margin-top: 20px;
+}
+
+.cool{
+    background-color: #7AB5B1;
+}
+
+.tab-m{
+    margin: 30px 0;
+}
+
+.h-fix{
+    margin: 10px 0;
+}
+
+.p-home{
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.playerbadge{
+    height: 250px;
+    object-fit: cover;
+    /* object-position: 100% 0%; */
+    object-position: top;
+}
+
+.saved-container{
+    padding: 10px;
+    overflow: auto;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    min-height: 20px;
+}
+
+.pembelah{
+    width: 30px;
+    height: 4px;
+    background-color: #e53935;
+    margin: 10px auto 40px auto;
+}
+
+.lolz{
+    height: 100% !important;
+}
+
+.cbtn{
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.homeview img{
+    height: 400px;
+}
+
+.imginfo{
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.teams-logo{
+    padding: 20px 50px;
+}
+
+.timbadge{
+    padding: 10px;
+    height: 150px;
+}
+
+.dinfo{
+    margin-top: 40px;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+.materialboxed{
+    display: inline-block !important;
+}
+
+#detailtim th{
+    text-align: center;
+}
+
+@media only screen and (max-width : 600px)
+{
+    .p-home{
+        font-size: 14px;
+    }
+
+    th,td{
+        font-size: 14px;
+    }
+
+   .h-img{
+       width: 400px;
+       height: 350px !important;
+   }
+
+   .imgtengah{
+       width: 20px;
+       height: 20px;
+   }
+}
+
+@media only screen and (max-width : 540px)
+{
+   .h-img{
+        width: 300px;
+        height: 250px !important;
+   }
+}
